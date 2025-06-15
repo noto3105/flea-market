@@ -1,0 +1,190 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.header__logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.img p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.img__select {
+    border: 1px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.img__upload-button {
+    padding: 6px 12px;
+    background-color: #fff;
+    border: 1px solid #f66;
+    color: #f66;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.detail__title,
+.item__description h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.category__select {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0 20px 0;
+}
+
+.category__select input[type="radio"] {
+    display: none;
+}
+
+.category__button {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #ff5655;
+    padding: 5px 10px;
+    border: 1px solid #ff5655;
+    border-radius: 20px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.category__select input[type="radio"]:checked + .category__button {
+    color: #fff;
+    background-color: #ff5655;
+    border-color: #ff5655;
+}
+
+.condition__select select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.form__group {
+    margin-bottom: 20px;
+}
+
+.form__group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.input__box {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea.input__box {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.submit__button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff5555;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1540px) {
+    .container {
+        max-width: 1000px;
+        padding: 50px 40px;
+    }
+
+    .header__logo {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .img__select {
+        padding: 30px;
+    }
+
+    .category__item {
+        font-size: 14px;
+        padding: 6px 14px;
+    }
+
+    .input__box,
+    .condition__select select {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .submit__button {
+        font-size: 18px;
+        padding: 14px;
+    }
+
+    textarea.input__box {
+        min-height: 120px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px) {
+    .container {
+        padding: 30px 16px;
+    }
+
+    .header__logo {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    .img__select {
+        padding: 18px;
+    }
+
+    .img__upload-button {
+        font-size: 13px;
+        padding: 5px 10px;
+    }
+
+    .category__item {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .input__box,
+    .condition__select select {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .submit__button {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    textarea.input__box {
+        min-height: 100px;
+    }
+}
