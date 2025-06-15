@@ -26,10 +26,12 @@ php artisan db:seed
 ## 使用技術
 php7.4.9  
 laravel8.83.8  
-Mysql 8.0.26  
+Mysql 8.0.26
+
 
 ## ER図
-![furimaER](https://github.com/user-attachments/assets/74bb422d-ede8-484c-8bf9-8b40eba7e7fe)
+![FM_ER](https://github.com/user-attachments/assets/dbea51e4-d9bb-42ed-830b-60fff7bf2470)
+
 
 
 ## URL
